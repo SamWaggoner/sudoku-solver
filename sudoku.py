@@ -36,6 +36,7 @@ def printBoard(board):
     print("-------------------------------------")
     for k in range(3):
         if k == 0 or k == 2:
+            pass
         for i in range(3*k,3*k+3):
             row = []
             for j in range(9):
